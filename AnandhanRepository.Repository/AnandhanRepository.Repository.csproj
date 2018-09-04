@@ -5,6 +5,9 @@
     <ProjectReference Include="..\AnandhanRepository.XMLSource\AnandhanRepository.XMLSource.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="ContextTypes.cs" />
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>

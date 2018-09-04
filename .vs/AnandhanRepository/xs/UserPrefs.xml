@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{1BE50A23-E970-49A8-BD10-1DD9F23B42F8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AnandhanRepository.Repository/RepositoryFactory.cs">
+    <Files>
+      <File FileName="AnandhanRepository.Console/Program.cs" Line="56" Column="34" />
+      <File FileName="AnandhanRepository.XMLSource/XMLSet.cs" Line="37" Column="24" />
+      <File FileName="AnandhanRepository.Repository/EmployeeXMLRepository.cs" Line="7" Column="72" />
+      <File FileName="AnandhanRepository.Repository/RepositoryFactory.cs" Line="15" Column="45" />
+      <File FileName="AnandhanRepository.Repository/XMLRepositoryBase.cs" Line="71" Column="35" />
+      <File FileName="AnandhanRepository.Repository/IEmployeeRepository.cs" Line="1" Column="1" />
+      <File FileName="AnandhanRepository.Repository/IRepository.cs" Line="14" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AnandhanRepository.Console PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employee>
+    <Id>7a81ac5a-2db2-4681-8c97-3d8d38e4150e</Id>
+    <Name>Anandhan</Name>
+    <SurName>Suruli</SurName>
+    <Classroom>A</Classroom>
+  </Employee>
+  <Employee>
+    <Id>e44a0076-b91f-4ade-a2bf-27549552ff80</Id>
+    <Name>Saravanan</Name>
+    <SurName>Suruli</SurName>
+    <Classroom>A</Classroom>
+  </Employee>
+  <Employee>
+    <Id>74b8a7bb-75b9-414f-b3d1-55ce8e889610</Id>
+    <Name>Anish</Name>
+    <SurName>Nandeeswaran</SurName>
+    <Classroom>A</Classroom>
+  </Employee>
+</ArrayOfEmployee>

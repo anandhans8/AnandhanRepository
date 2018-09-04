@@ -23,7 +23,8 @@ namespace AnandhanRepository.Console
                 System.Console.WriteLine("3 - Exit");
                 string inputKey = System.Console.ReadLine();
                 System.Console.Clear();
-                var source = RepositoryFactory.Create<IEmployeeRepository>(ContextTypes.XMLSource);
+                //var source = RepositoryFactory.Create<IEmployeeRepository>(ContextTypes.XMLSource);
+                var source = RepositoryFactory.Create<IEmployeeRepository>();
                 if (inputKey == "1")
                 {
                     
@@ -32,6 +33,9 @@ namespace AnandhanRepository.Console
                     {
                         System.Console.WriteLine(item.Name + " " + item.SurName + ": " + item.Classroom);
                     }
+
+                    System.Console.WriteLine("Press any key to continue...");
+                    System.Console.ReadKey();
                 }
                 else if(inputKey == "2")
                 {
@@ -43,6 +47,8 @@ namespace AnandhanRepository.Console
                     System.Console.Write("Classroom: ");
                     employee.Classroom = System.Console.ReadLine();
                     System.Console.Clear();
+
+                    employee.Id = Guid.NewGuid().ToString();
 
                     // source = RepositoryFactory.Create<IEmployeeRepository>(ContextTypes.XMLSource);
 

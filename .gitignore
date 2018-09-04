@@ -6,3 +6,6 @@ AnandhanRepository.Repository/bin
 AnandhanRepository.Repository/obj
 AnandhanRepository.XMLSource/bin
 AnandhanRepository.XMLSource/obj
+
+#Do not add generated xml file
+AnandhanRepository.Console/*.xml
